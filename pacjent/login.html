@@ -1,0 +1,21 @@
+<!-- nie używam, bo formularz logowania na stałe na stronie StrefaPacjenta.html -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log-in</title>
+</head>
+<body>
+
+<!--       <form action = "http://127.0.0.1:3020/pacjent/process_post" method = "POST">       -->
+      <form action = "http://127.0.0.1:3020/users/login" method = "POST">	
+<!--          Użytkownik: <input type = "text" username = ""> <br>
+         Hasło: <input type = "text" password = ""> -->
+         Uzytkownik: <input type = "text" name = "username"> <br>
+         Hasło: <input type = "text" name = "password"> 
+         <input type = "submit" value = "Wyślij">
+      </form>
+      
+</body>
+</html>

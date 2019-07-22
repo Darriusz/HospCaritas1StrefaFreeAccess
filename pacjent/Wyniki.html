@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- 	https://www.w3schools.com/bootstrap4 -->
+
+ 	<title>Wyniki</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body>
+	<header>
+
+<!-------------- navigation -->
+<div id="NavigationPacjent"></div>
+
+	</header>
+
+	<div class="jumbotron text-center">
+      <h1 class="mainJumbo">Strefa pacjenta</h1>
+      <div class="container">
+        <div id="jumboRow" class="row">
+          <p id="jumboText" class="d-none d-lg-block">Wyniki badań laboratoryjnych</p>
+          <p id="jumboText" class="d-lg-none" >Wyniki badań laboratoryjnych</p> 
+        </div>
+      </div>
+    </div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div id="bigPage1" class="col-sm-12 text-justify">
+
+<!--------------------accordion------------------->
+      <div class="panel-group" id="accordionZakres">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+              <a class="panel-title zakres" data-toggle="collapse" data-parent="#accordionZakres" href="#collapse1">
+              1. 02. 2019</a>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse in">
+           <div class="embed-responsive embed-responsive-16by9">
+              <object class="embed-responsive-item" data="patientData/WynikA4.pdf" type="application/pdf" internalinstanceid="9" title="">
+                <p>Twoja przeglądarka nie realizuje wymaganej obsługi pdf. Możesz ściągnąć plik, <a href="WynikA4.pdf">naciskając tutaj</a>.</p>
+              </object>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+              <a class="panel-title zakres" data-toggle="collapse" data-parent="#accordionZakres" href="#collapse2">
+              11. 03. 2019</a>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse">
+           <div class="embed-responsive embed-responsive-16by9">
+              <object class="embed-responsive-item" data="patientData/WynikA5.pdf" type="application/pdf" internalinstanceid="9" title="">
+                <p>Twoja przeglądarka nie realizuje wymaganej obsługi pdf. Możesz ściągnąć plik, <a href="WynikA4.pdf">naciskając tutaj</a>.</p>              
+              </object>
+            </div>
+          </div>
+        </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <a class="panel-title zakres" data-toggle="collapse" data-parent="#accordionZakres" href="#collapse3">
+              5. 07. 2019</a>
+          </div>
+          <div id="collapse3" class="panel-collapse collapse">
+           <div class="embed-responsive embed-responsive-16by9">
+              <object class="embed-responsive-item" data="patientData/WynikA5a.pdf" type="application/pdf" internalinstanceid="9" title="">
+                <p>Twoja przeglądarka nie realizuje wymaganej obsługi pdf. Możesz ściągnąć plik, <a href="WynikA4.pdf">naciskając tutaj</a>.</p>              
+              </object>
+            </div>
+          </div>
+        </div>    
+      </div>
+<!--------------end of accordion-------------->
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- ----------wide paragraph indented ------------------>
+<!-- <div id="longText" class="container">
+  <h2 class="display-3">Dlaczego hospicjum</h2>
+  <p class="lead">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris....</p> 
+  <p><abbr title="United States of Amrica">USA</abbr> enim ad minim veniam, quis nostrud exercitation <mark>ullamco laboris</mark>...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris....</p> -->
+<!--     <h4>Blockquotes</h4>
+  <blockquote class="blockquote">
+    <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+    <footer class="blockquote-footer">From WWF's website</footer>
+  </blockquote> -->
+</div>
+
+<div class="insertFooterPacjent">control</div>
+
+
+
+<script type="text/javascript" src="../js/ajax-utils.js"></script>
+<script type="text/javascript" src="../js/script.js"></script>
+</body>
+</html>

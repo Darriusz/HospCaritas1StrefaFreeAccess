@@ -1,0 +1,23 @@
+    <div class="col-4 text-center">
+<!--       <img class="MycolImg" src="images/AutorPixabay1_m.jpg" alt=""> -->
+      <img class="MycolImg" src="images/{{imie}}{{nazwisko}}.jpg" onerror="this.src='images/AutorPixabay1_m.jpg'" alt="sorry, no image yet">
+
+      <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-sm persBtn" data-toggle="modal" data-target="#{{nazwisko}}">{{tytul}} {{imie}} {{nazwisko}}</button>
+      <div class="modal fade" id="{{nazwisko}}" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title display-4 mr">{{tytul}} {{imie}} {{nazwisko}}</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p>{{tekst}}</p>
+              <p>tel. <a class="telModal" href= "tel:{{tel}}">{{tel}}</a>
+                <br>e-mail: <a class="mailtoModal" href= "mailto:{{mail}}">{{mail}}</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ---end of modal---- -->
+    </div>

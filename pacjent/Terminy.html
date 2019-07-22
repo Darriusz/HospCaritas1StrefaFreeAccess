@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- 	https://www.w3schools.com/bootstrap4 -->
+
+ 	<title>Terminy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body>
+	<header>
+
+<!-------------- navigation -->
+<div id="NavigationPacjent"></div>
+
+	</header>
+
+	<div class="jumbotron text-center">
+      <h1 class="mainJumbo">Strefa pacjenta</h1>
+      <div class="container">
+        <div id="jumboRow" class="row">
+          <p id="jumboText" class="d-none d-lg-block">Kalendarz planowych wizyt</p>
+          <p id="jumboText" class="d-lg-none" >Kalendarz planowych wizyt</p> 
+        </div>
+      </div>
+    </div>
+
+<!-- ------------Columns ------------->
+<table class="table table-hover drugs">
+  <thead>
+    <tr>
+      <th class='drugHead' scope="col"></th>
+      <th class='drugHead' scope="col">Wizyta</th>
+      <th class='drugHead' scope="col">Terminy</th>
+      <th class='drugHead' scope="col">Uwagi</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th class='drugHead' scope="row">1.</th>
+      <td>Lekarz: dr ............</td>
+      <td>co 2 tygodnie</td>
+      <td>W razie nagłej potrzeby proszę o telefon na numer <a class="tel telDark"  href= "tel:48426362408">42 636 24 08</a> lub do pielęgniarki.</td>
+    </tr>
+    <tr>
+      <th class='drugHead' scope="row">2.</th>
+      <td>Pielęgniarka: ...................</td>
+      <td>wtorki i piątki</td>
+      <td>W razie wszelkich pytań dotyczących opieki lub zmiany stanu zdrowia proszę o telefon na mój numer <a class="tel telDark"  href= "tel:48426362408">42 636 24 08</a>.</td>
+    </tr>
+    <tr>
+      <th class='drugHead' scope="row">3.</th>
+      <td>Wolontariusz: ...........................</td>
+      <td>środy 10:00 - 12:00</td>
+      <td>Kontakt: <a class="tel telDark"  href= "tel:48426362408">42 636 24 08</a>.</td>
+    </tr>
+    <tr>
+      <th class='drugHead' scope="row">4.</th>
+      <td> Fizjoterapeuta: ...................... </td>
+      <td>do końca kwietnia poniedziałki i czwartki ok. 16:00</td>
+      <td>Kontakt: <a class="tel telDark"  href= "tel:48426362408">42 636 24 08</a>.</td>
+  </tbody>
+</table>
+
+
+<!-- ----------wide paragraph indented ------------------>
+<!-- <div id="longText" class="container">
+  <h2 class="display-3">Dlaczego hospicjum</h2>
+  <p class="lead">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris....</p> 
+  <p><abbr title="United States of Amrica">USA</abbr> enim ad minim veniam, quis nostrud exercitation <mark>ullamco laboris</mark>...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris....</p> -->
+<!--     <h4>Blockquotes</h4>
+  <blockquote class="blockquote">
+    <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+    <footer class="blockquote-footer">From WWF's website</footer>
+  </blockquote> -->
+</div>
+
+<div class="insertFooterPacjent">control</div>
+
+
+
+<script type="text/javascript" src="../js/ajax-utils.js"></script>
+<script type="text/javascript" src="../js/script.js"></script>
+</body>
+</html>

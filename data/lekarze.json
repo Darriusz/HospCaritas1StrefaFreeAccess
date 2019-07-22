@@ -1,0 +1,49 @@
+[{
+"tytul":"<span class=tytul> dr n. med. </span>",
+"imie": "Tomasz",
+"nazwisko":"Iksiński",
+"tekst":"Specjalista w dziedzinie.... Ukończył studia na .... w ???? roku. Pracuje u nas od ???? roku. Lubi zwierzęta (jazz, literaturę iberyjską, wspinaczkę górską....). Poprzednio pracował w .....",
+"tel":"42 636 24 08",
+"mail":"adres@domena.com.pl"
+},
+{
+"tytul":"<span class=tytul> lek. med. </span>",	
+"imie": "Beata",
+"nazwisko":"Olborska",
+"tekst":"Specjalistka w dziedzinie.... Ukończyła studia na .... w ???? roku. Pracuje u nas od ???? roku. Lubi zwierzęta (jazz, literaturę iberyjską, wspinaczkę górską....). Poprzednio pracowała w .....",
+"tel":"42 636 24 08",
+"mail":"adres@domena.com.pl"
+},
+{
+"tytul":"<span class=tytul> dr n. med. </span>",
+"imie": "Katarzyna",
+"nazwisko":"Wyrwał",
+"tekst":"Specjalistka w dziedzinie.... Ukończyła studia na .... w ???? roku. Pracuje u nas od ???? roku. Lubi zwierzęta (jazz, literaturę iberyjską, wspinaczkę górską....). Poprzednio pracowała w .....",
+"tel":"42 636 24 08",
+"mail":"adres@domena.com.pl"
+},
+{
+"tytul":"<span class=tytul> lek. med. </span>",
+"imie": "Wojciech",
+"nazwisko":"Igrekowski",
+"tekst":"Specjalista w dziedzinie.... Ukończył studia na .... w ???? roku. Pracuje u nas od ???? roku. Lubi zwierzęta (jazz, literaturę iberyjską, wspinaczkę górską....). Poprzednio pracował w .....",
+"tel":"42 636 24 08",
+"mail":"adres@domena.com.pl"
+},
+{
+"tytul":"<span class=tytul> lek. med. </span>",
+"imie": "Dagmara",
+"nazwisko":"Pozdro",
+"tekst":"Specjalistka w dziedzinie.... Ukończyła studia na .... w ???? roku. Pracuje u nas od ???? roku. Lubi zwierzęta (jazz, literaturę iberyjską, wspinaczkę górską....). Poprzednio pracowała w .....",
+"tel":"42 636 24 08",
+"mail":"adres@domena.com.pl"
+},
+{
+"tytul":"<span class=tytul> lek. med. </span>",
+"imie": "Robert",
+"nazwisko":"Nurski",
+"tekst":"Specjalistka w dziedzinie.... Ukończyła studia na .... w ???? roku. Pracuje u nas od ???? roku. Lubi zwierzęta (jazz, literaturę iberyjską, wspinaczkę górską....). Poprzednio pracowała w .....",
+"tel":"42 636 24 08",
+"mail":"adres@domena.com.pl"
+}
+]

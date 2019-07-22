@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- 	https://www.w3schools.com/bootstrap4 -->
+
+ 	<title>Strefa pacjenta</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body>
+	<header>
+
+<!-------------- navigation without buttons, back to main page only -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <a id="firma" class="navbar-brand" href="../index.html"><h1>Hospicjum Domowe<br><span id="sp">Caritas Archidiecezji Łódzkiej</span></h1></a>
+</nav>
+
+	</header>
+
+	<div class="jumbotron text-center">
+      <h1 class="mainJumbo">Strefa pacjenta</h1>
+      <div class="container jumbocontainer">
+        <div id="jumboRow" class="row">
+          <p id="jumboText" class="d-none d-lg-block">Wyniki badań, terminy wizyt, indywidualne porady</p>
+          <p id="jumboText" class="d-lg-none" >Ważne informacje, wyniki badań, <br>terminy wizyt i indywidualne porady</p> 
+        </div>
+      </div>
+    </div>
+
+
+
+<!----------- logowanie ------------------->
+
+<!-- <div class="container-fluid">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h3 class="display-4">Zaloguj się</h3>
+       <p>korzystając z nazwy użytkownika i hasła otrzymanego w Hospicjum.</p>
+        <form action = "http://127.0.0.1:3020/users/login" method = "POST"> 
+           Użytkownik: <input type = "text" name = "username"> <br>
+           Hasło: <input type = "text" name = "password"> 
+           <input type = "submit" value = "Wyślij">
+        </form>
+    </div>
+  </div>
+</div> -->
+
+
+
+<form action="http://127.0.0.1:3020/users/login" method = "POST">
+
+  <div class="container-fluid log">
+    <div class="row">
+     <div class="col-12">  
+    <!--    <h3 class="display-4">Zaloguj się</h3>
+        <p>korzystając z nazwy użytkownika i hasła otrzymanego w Hospicjum.</p>  -->
+        <label class="logItemName" for="uname"><b>Użytkownik</b></label>
+        <input type="text" placeholder="Wprowadź otrzymany kod pacjenta" name="username" required>
+
+        <label class="logItemName" for="psw"><b>Hasło</b></label>
+        <input type="password" placeholder="Wprowadź otrzymane hasło dostępu" name="password" required>
+
+        <button class="log" type="submit">Zaloguj się</button>
+    <!--     <label>
+          <input type="checkbox" checked="checked" name="remember"> Zapamiętaj mnie
+        </label> -->
+      </div>
+
+    <!--   <div class="container log" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn log">Anuluj</button>
+        <span class="psw">Nie pamiętasz <a href="#">hasła?</a></span>
+      </div> -->
+      </div>
+    </div>
+</form>
+
+
+
+<!-- ------------Columns ------------->
+<!-- <div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3 class="display-4"><a href="porady.html">Porady</a></h3>
+       <p><strong>Lista przepisanych leków</strong> wraz z zaleconą częstotliwością przyjmowania oraz inne porady do stosowania na co dzień i w sytuacjach nagłych.</p> 
+    </div>
+    <div class="col-sm-4">
+      <h3 class="display-4"><a href="wyniki.html">Wyniki</a></h3>
+       <p>Tu znajdziesz zestaw wyników wszystkich badań laboratoryjnych zleconych przez Hospicjum.</p>
+    </div>
+    <div class="col-sm-4 bg-light">
+      <h3 class="display-4"><a href="terminy.html">Terminy</a></h3>        
+       <p>Kalendarz planowych wizyt lekarskich, pielęgniarskich i specjalistycznych oraz odwiedzin wolontariuszy.</p>
+    </div>
+  </div>
+</div>
+
+<div><hr class="short"></div> -->
+
+
+
+<!-- ----------wide paragraph indented ------------------>
+<!-- <div id="longText" class="container">
+  <h2 class="display-3">Dlaczego hospicjum</h2>
+  <p class="lead">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris....</p> 
+  <p><abbr title="United States of Amrica">USA</abbr> enim ad minim veniam, quis nostrud exercitation <mark>ullamco laboris</mark>...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris....</p> -->
+<!--     <h4>Blockquotes</h4>
+  <blockquote class="blockquote">
+    <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+    <footer class="blockquote-footer">From WWF's website</footer>
+  </blockquote> -->
+</div>
+
+<div class="insertFooterPacjent">control</div>
+
+
+
+<script type="text/javascript" src="../js/ajax-utils.js"></script>
+<script type="text/javascript" src="../js/script.js"></script>
+</body>
+</html>

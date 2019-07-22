@@ -1,0 +1,25 @@
+[{
+"tytul": "<span class=tytul>mgr </span>",	
+"imie": "Irena",
+"nazwisko":"Iksińska",
+"tekst":"Specjalistka w dziedzinie....  Pracuje u nas od ???? roku. Lubi zwierzęta (jazz, literaturę iberyjską, wspinaczkę górską....). Poprzednio pracował w .....",
+"tel":"42 636 24 08",
+"mail":"adres@domena.com.pl"
+},
+{
+"tytul": "<span class=tytul>mgr </span>",
+"imie": "Tadeusz",
+"nazwisko":"Wojnarski",
+"tekst":"Specjalistka w dziedzinie....  Ukończyła studia na .... w ???? roku. Pracuje u nas od ???? roku. Lubi zwierzęta (jazz, literaturę iberyjską, wspinaczkę górską....). Poprzednio pracowała w .....",
+"tel":"42 636 24 08",
+"mail":"adres@domena.com.pl"
+},
+{
+"tytul": "<span class=tytul></span>",
+"imie": "Agnieszka",
+"nazwisko":"Witos",
+"tekst":"Specjalistka w dziedzinie....  Pracuje u nas od ???? roku. Lubi zwierzęta (jazz, literaturę iberyjską, wspinaczkę górską....). Poprzednio pracowała w .....",
+"tel":"42 636 24 08",
+"mail":"adres@domena.com.pl"
+}
+]

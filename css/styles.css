@@ -1,0 +1,785 @@
+/********* navigation ****************/
+
+.navbar {
+/*	background-image: url("../images/NavBarZPulpitu_m.jpg");*/
+	background-color: rgba(29,76,123,.6); /* #3772AE rgba(29,76,123,.6) rgba(55, 114, 174, 0.8); #295488;*/
+/*	height: 60px*/
+/*	border-radius: 5px;*/
+	height: 5em;
+}	
+
+a.navbar-brand h1{
+	margin-top: 5px;
+	line-height: 80%;
+}
+
+#sp {
+	font-size: 0.5em;
+	color: #EDB6B4; /*#D69F9D #CC6965 #FA857F;*/
+}
+
+a.nav-link {
+	font-size: 125%;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color: #E5E0E0 /*#FA857F;*/
+}
+
+.navbar-collapse {
+	z-index: 1;
+}
+
+.dropdown-menu{
+	text-align: center;
+	background-color: #E5E0E0;
+}
+.dropdown-item:hover {
+	color: #FA857F;
+	background-color: #E5E0E0;	
+}
+
+#dropdown-toggle {
+	color:white;
+}
+
+hr.menuHr{
+	border: 0; 
+	border-top: 1px solid white;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: black;
+}
+
+hr.toggle{
+	border: 0; 
+	border-top: 1px solid #8B9DB5;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+.navbar-dark .navbar-nav .nav-link.active {
+	color: #BEDBF8;
+	background-color: rgba(255,255,255,0.2);
+	border-radius: 5px;
+}
+
+a.strefaPacjenta {
+	margin-right: 25px;
+	text-align: right;
+	display: block;
+	color: #FA857F;
+}
+a.strefaPacjenta:hover {
+	text-decoration: none;
+	color: white;
+}
+
+
+/*************social media in navigation *******************/
+.fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 1px 5px;
+}
+
+.fa:hover {
+	color: rgba(255,255,255,0.5);
+	text-decoration: none; 
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/**************end of social media and of navigation *****************/
+
+
+
+/************strefa pacjenta logowanie *****************/
+
+
+/* Bordered form */
+form {
+  border: 1px solid black;
+  background-color: #f1f1f1;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.logItemName {
+	margin-top: 12px;
+	color: rgba(29,76,123,.7);
+}
+
+
+/* Set a style for all buttons */
+button.log {
+  background-color: rgba(29,76,123,.6); /*#4CAF50*/
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button.log:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Add padding to containers */
+.container.log {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+
+
+
+/************strefa pacjenta *****************/
+
+#telebimImg{
+	position: absolute;
+  	left: 0;
+  	top:0;
+	z-index: -2;
+	width:100%;
+	max-height: 550px;
+}
+
+h1.mainTelebim {	
+	text-align:center; 
+	margin-top: 2%;
+	font-size: 5vw;
+	color:white;
+	text-shadow: -1px -1px #000000,
+    1px -1px #000000,
+    -1px 1px #000000,
+    1px 1px #000000;	/*to jest OUTLINE zrobiony z czarnego cienia*********************/
+}
+
+#telebimText {   /*text on telebim image */
+	width:50%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color: #FA857F;
+	font-size: 2.5vw;	
+	margin-top: 0.5em;
+	margin-bottom: 1.2em;
+	padding: 0.6em 0em 0.6em 0em;
+	background-color: rgba(29,76,123,.4) /*rgba(0,0,0,0.3)*/;
+	border-radius: 5px;
+}
+
+.jumbotron {	/* strefa pacjenta  *************/
+
+	background-image: url("https://www.stjoeschipfalls.org/www-sjcf/media/SJCF-Images/header-images/services-header-hospice.png");
+	color: white;
+/*	margin-top: 60px; /*for fixed navbar BUT doesn't move down with coll navbar. Moves down when no margin top and no fixed navbar */
+	max-height: 280px;
+}
+
+h1.mainJumbo {
+	text-align:center; 
+	margin-top: 0;
+	font-size: 5vw;
+	color:white;
+	text-shadow: -1px -1px #000000,
+    1px -1px #000000,
+    -1px 1px #000000,
+    1px 1px #000000;	/*to jest OUTLINE zrobiony z czarnego cienia*********************/
+}
+
+.jumbocontainer {
+	width: 100%;
+}
+
+#jumboText {   /*text on jumbo image */
+	width:100%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color: white /*#FA857F*/;
+	font-size: 2.5vw;	
+	margin-top: 0.5em;
+	margin-bottom: 1.2em;
+	padding: 0.6em 0em 0.6em 0em;
+	background-color: rgba(250,133,127,.5) /*rgba(29,76,123,.4) rgba(0,0,0,0.3)*/;
+	border-radius: 5px;
+}
+
+.drugs {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+	margin-bottom: 25px;
+/*	color: rgba(29,76,123,.7);	*/
+/*	background-color: #E5E0E0;*/
+
+}
+
+.drugHead {
+	color: rgba(29,76,123,.9);
+}
+
+
+#topText{
+	position: relative;
+	margin-top: 10%;
+}
+
+
+h3 > a { /*highlighted index page paragraph leads */
+	text-decoration: none;
+	color: black;
+} 
+
+h3 > a:hover { /*highlighted index page paragraph leads */
+	text-decoration: none;
+	color: white;
+	background-color: #E5E0E0;
+	border-radius: 15px;
+} 
+
+h4{
+	text-align: left;
+}
+
+.container-fluid{
+	width:95%;
+	margin: auto;
+}
+
+.display-2, .display-3, .display-4 {
+	color: #FA857F;
+	text-align: left;
+
+}
+
+.display-4{
+	font-size: 4.5vw;
+}
+
+hr.short{
+	width:60%;
+	border: 0; 
+	border-top: 1px solid #FA857F;
+	margin-top: 50px;
+}
+
+#big {
+	margin-top: 20px;
+}
+
+#longText{
+	width: 85%;
+	margin: auto;
+	text-align: justify;
+	background-color: #E5E0E0;
+}
+
+#longTextWolont{
+	width: 85%;
+	margin: auto;
+	margin-top: 40px;
+	text-align: justify;
+	border: 1px solid black;
+}
+
+
+#carous {
+ 	width: 100%;
+    height: 100%;
+    max-height: 400px;
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid black;
+    box-shadow: 2px 2px #295488;
+}
+
+#slajdy {
+	margin-top: 50px;
+	width: 50%;
+	height: auto;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    max-width: 600px;
+}
+#carousWyniki {
+ 	width: 100%;
+    height: 100%;
+/*    max-height: 400px;
+    max-width: 600px;*/
+    margin: auto;
+    border: 1px solid black;
+    box-shadow: 2px 2px #295488;
+}
+
+
+/**************personel*****************/
+
+.personel.display-4{   /*lekarze, pielegniarki*/
+	text-align: center;
+	font-size: 4vw;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	color: #295488;
+}
+
+.MycolImg {
+	flex: 1.1;
+ 	max-height: 100% ;
+ 	max-width: 100%;
+ 	border: 1px solid black;
+ 	box-shadow: 2px 2px #E5E0E0;
+ 	margin: 7%;
+}
+
+.pers, .persBtn { /*przyciski z nazwiskami pod foto personelu*/
+	color:grey;
+}
+
+.pers:hover, .persBtn:hover {
+	text-decoration: none;
+	color: #FA857F;
+}
+
+.tytul {  /*dr n. med*/
+	font-size: 85%;
+}
+
+.modal-body{
+	text-align: justify; 
+}
+
+/*************wolontariusze*************/
+
+#collapsiblePanelsWolont {
+	background-color:#E5E0E0;
+	padding-top:10px;
+	border-radius:5px;
+	text-align: justify;
+	margin-top: 20px;
+}
+
+.colPanel {
+	text-decoration: none;
+	color: #FA857F;
+}
+
+h4 > a.display-4 {
+	font-size: 150%;
+}
+
+h4 > a:hover {
+	text-decoration: none;
+	color: white;
+} 
+
+#accordionZostan { /***Jak moge pomoc***/
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.panel-title{
+	display: block;
+	padding: 5px 0px 5px 15px;
+	font-size: 130%;
+	font-family: Roboto, Arial, sans-scheriff;
+	text-align: left;
+	background-color: #E5E0E0;
+	color: #FA857F;
+}
+
+a.panel-title:hover {
+	text-decoration: none;
+	color: white;
+}
+
+#zostan {
+	text-decoration: none;
+	color: rgba(29,76,123,.4);
+}
+
+#zostan:hover {
+	text-decoration: none;
+	color: orange;
+}
+
+.panel-body{
+	color: grey;
+	padding: 5px 20px 10px 20px;
+}
+
+#accordionZakres {    /******zakres opieki***/
+	margin-bottom:30px;
+}
+.zakres{
+	display: block;
+	padding: 5px 0px 5px 15px;
+	font-size: 130%;
+	font-family: Roboto, Arial, sans-scheriff;
+	text-align: center;
+	background-color: #E5E0E0;
+	color: #FA857F;
+	margin-bottom: 10px;
+}
+
+
+#button3PanelHeading{
+	color: red;
+	margin-top: 30px;
+	margin-bottom:30px;
+}
+
+.colImg {
+	width:100%;
+	max-width: 400px;
+	max-height: 250px;
+	margin-top: 20px;
+	border: 1px solid black;
+	box-shadow: 2px 2px #A8B7C6;
+}
+
+a.telDark {
+	color: rgba(29,76,123,.9);
+}
+
+
+/************************** footer ************************/
+
+#mainFooter{
+	background-color: #576A6F; /*#0E284D;*/
+	color: #BAD5FC; /*#ACAFB3;*/
+	text-align: center;	
+	margin-top: 30px;
+	padding: 20px;
+/*	border-radius: 10px;*/
+}
+
+a.telLight, a.mailto {
+	color: #BAD5FC;
+}
+
+a.telModal, a.mailtoModal {
+	color: #FA857F;
+}
+
+a.tel:hover, a.mailto:hover,a.telModal:hover, a.mailtoModal:hover {
+	text-decoration: none;
+	color: #8B9DB5;
+}
+
+#copyright{
+	text-align: center;
+	color: #8B9DB5;
+	font-size:0.8em;
+}
+
+
+/*******extra extra small**********/
+@media (max-width: 450px) {
+
+	.navbar-dark .navbar-nav .nav-link{
+		color: #FA857F;
+		text-align: right;
+		background-color: rgba(29,76,123,.9);
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	.fa {  /*** social media, font awesome ***/
+	  padding: 5px;
+	  font-size: 10px;
+	  width: 20px;
+	  text-align: center;
+	  text-decoration: none;
+	  margin: 1px;
+	}
+
+	#telebimImg{
+		width:160%;
+	}
+
+	#topText{
+		margin-top: 12%;
+	}
+
+	h1.mainTelebim {
+		margin-top: 0.5em;
+	}
+	
+	h1 {
+		font-size: 100%;
+	}
+
+	h1.main {
+		font-size: 30px;
+		margin-top: 0px;
+	}
+	#telebim {
+		width: 100%;
+		height: 250px;
+	}
+	#telebimText {
+		color: #FA857F;
+		font-size: 12px;
+		margin-top: 2px;
+		width:75%;
+	}
+	
+	#jumboText {   /*text on jumbo image */
+		width:75%;
+	}
+
+	body {
+		font-size: 0.8em;
+	}
+
+	.display-2 {
+		font-size:380%;
+		margin-top: 20px;
+	}
+
+	.display-3 {
+		font-size:310%;
+	}
+
+	.display-4{
+		font-size: 250%;
+		margin-top: 0;			
+	}
+
+	.lead{
+		font-size: 120%;
+	}
+
+	h4 > a.display-4 {
+	font-size: 100%;
+	}
+	
+	.blockquote p{
+		font-size: 70%;
+	}
+
+	.panel-body{
+		text-align: left; 
+	}
+	.drugs {
+		width: 95%;
+	}
+}
+
+
+/*******extra small**********/
+@media (min-width: 451px) and (max-width: 576px) {
+	
+	.navbar-dark .navbar-nav .nav-link{
+		color: #FA857F;
+		text-align: right;
+		background-color: rgba(29,76,123,.9);
+		padding-right: 15px;
+		padding-left: 15px;		
+	}
+	.fa {  /*** social media, font awesome ***/
+	  padding: 5px;
+	  font-size: 15px;
+	  width: 30px;
+	  text-align: center;
+	  text-decoration: none;
+	  margin: 1px 3px;
+	}
+	
+	#telebimImg{
+		width:140%;
+	}
+
+	h1.mainTelebim {
+		margin-top: 1em;
+	}
+
+	#jumboText {   /*text on jumbo image */
+		width:75%;
+	}
+
+	#topText{
+	margin-top: 12%;
+	}
+
+	h1 {
+		font-size: 100%;
+		margin-top: 6px;
+	}
+
+	body {
+		font-size: 0.8em;
+	}
+
+	#telebim {
+		width: 100%;
+		height: 250px;
+	}
+
+	h1.main{
+		margin-top: 0px;
+	}
+
+	.display-2 {
+		font-size:380%;
+		margin-top: 20px;		
+	}
+	.display-3 {
+		font-size:310%;
+	}
+	.display-4{
+		font-size: 250%;
+		margin-top: 20px;			
+	}
+	.lead{
+		font-size: 120%;
+	}
+	h4 > a.display-4 {
+		font-size: 100%;
+	}
+	.blockquote p{
+		font-size: 70%;
+	}
+
+	.panel-body{
+		text-align: left; 
+	}
+	.drugs {
+		width: 95%;
+	}
+}
+
+
+/*******medium and small**********/
+@media (min-width: 577px) and (max-width: 991px) {
+
+	.navbar-dark .navbar-nav .nav-link{
+		color: #FA857F;
+		text-align: right;
+		background-color: rgba(29,76,123,.9);
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	#telebimImg{
+		width:130%;
+		max-height: 450px;
+	}
+
+	h1.mainTelebim {
+		margin-top: 2%;
+	}
+
+	#telebim {
+		width: 100%;
+		height: 350px;
+	}
+
+	#jumboText {   /*text on jumbo image */
+		width:75%;
+	}
+
+	h1 {
+		font-size: 150%;
+	}
+
+	.display-2 {
+		font-size:400%;
+	}
+
+	.display-3 {
+		font-size:350%;
+	}
+
+	.display-4{
+		font-size: 310%;
+	}
+	.lead{
+		font-size: 120%;
+	}
+	h4 > a.display-4 {
+		font-size: 150%;
+	}
+
+	.blockquote p{
+		font-size: 80%;
+	}
+	
+}
+
+
+/*******large**********/
+@media (min-width: 992px) {
+
+	h1 {
+		font-size: 150%;
+	}
+
+	#telebimText {
+		color: #FA857F;
+		font-size: 25px;
+	}
+		
+	.display-4{
+		font-size: 58px;
+	}
+	h1.mainJumbo {
+		margin-top: -20px;
+}
