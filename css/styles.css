@@ -239,7 +239,7 @@ h1.mainTelebim {
 	background-image: url("https://www.stjoeschipfalls.org/www-sjcf/media/SJCF-Images/header-images/services-header-hospice.png");
 	color: white;
 /*	margin-top: 60px; /*for fixed navbar BUT doesn't move down with coll navbar. Moves down when no margin top and no fixed navbar */
-	max-height: 280px;
+	max-height: 290px;
 }
 
 h1.mainJumbo {
